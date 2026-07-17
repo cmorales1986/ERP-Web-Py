@@ -1,0 +1,20 @@
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+*.user
+
+# Proyectos Blazor huérfanos (no forman parte de la solución activa)
+mega7-back/Mega7.Server/
+mega7-back/Mega7.Web/
+mega7-back/Mega7.WebAPP/
+mega7-back/Mega7.WebMu/
+mega7-back/Mega7.WebMud/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# mega7-front tiene su propio .gitignore (node_modules, .next, .env*, etc.)
