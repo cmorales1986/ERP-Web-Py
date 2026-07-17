@@ -244,7 +244,7 @@ export default function StockOutputListPage() {
           {canCreate && (
             <Button
               onClick={() => router.push("/stock-output/new")}
-              className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow"
+              className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow"
             >
               <Plus className="mr-2 h-4 w-4" />
               Nueva salida

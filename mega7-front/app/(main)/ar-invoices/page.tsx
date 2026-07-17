@@ -358,7 +358,7 @@ export default function ARInvoicesPage() {
           </Link>
 
           <Link href="/sales-invoices/new">
-            <Button className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow">
+            <Button className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow">
               <FilePlus className="mr-2 h-4 w-4" /> Nueva Factura
             </Button>
           </Link>
@@ -385,7 +385,7 @@ export default function ARInvoicesPage() {
                 onClick={() => setTypeFilter(t)}
                 className={`px-4 py-1.5 rounded-full text-sm font-medium border transition ${
                   active
-                    ? "bg-[#C5A05A] text-white border-[#C5A05A] shadow"
+                    ? "bg-[#2C5282] text-white border-[#2C5282] shadow"
                     : "bg-white text-gray-600 border-gray-300 hover:bg-gray-50"
                 }`}
               >

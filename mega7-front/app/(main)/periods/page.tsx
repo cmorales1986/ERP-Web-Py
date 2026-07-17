@@ -404,7 +404,7 @@ export default function PeriodsPage() {
               <Button
                 onClick={openCreate}
                 disabled={loading}
-                className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow"
+                className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow"
               >
                 <Plus className="mr-2 h-4 w-4" />
                 Nuevo Período
@@ -480,7 +480,7 @@ export default function PeriodsPage() {
               </Button>
               <Button
                 onClick={createPeriod}
-                className="bg-[#C5A05A] hover:bg-[#b8934f] text-white"
+                className="bg-[#2C5282] hover:bg-[#1A365D] text-white"
               >
                 Crear
               </Button>

@@ -369,7 +369,7 @@ export default function StockEntryNewPage() {
       showCancelButton: true,
       confirmButtonText: "Importar",
       cancelButtonText: "Cancelar",
-      confirmButtonColor: "#C5A05A",
+      confirmButtonColor: "#2C5282",
     });
 
     if (!confirm.isConfirmed) return;
@@ -628,7 +628,7 @@ export default function StockEntryNewPage() {
 
           <Button
             onClick={saveEntry}
-            className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow"
+            className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow"
           >
             <Save className="mr-2 h-4 w-4" /> Guardar
           </Button>
@@ -976,7 +976,7 @@ export default function StockEntryNewPage() {
               <Button variant="outline" onClick={() => setOpenLineModal(false)}>
                 Cancelar
               </Button>
-              <Button className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow" onClick={saveLineFromModal}>
+              <Button className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow" onClick={saveLineFromModal}>
                 Guardar línea
               </Button>
             </div>

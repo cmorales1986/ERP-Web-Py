@@ -287,7 +287,7 @@ export default function ARInvoiceDetailPage() {
           <Button
             onClick={openPdf}
             disabled={!ar}
-            className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow"
+            className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow"
           >
             <Printer className="mr-2 h-4 w-4" /> Imprimir PDF
           </Button>
@@ -377,7 +377,7 @@ export default function ARInvoiceDetailPage() {
                     <button
                       onClick={saveComment}
                       disabled={savingComment}
-                      className="flex items-center gap-1 px-3 py-1 rounded-lg bg-[#C5A05A] hover:bg-[#b8934f] text-white text-xs font-medium"
+                      className="flex items-center gap-1 px-3 py-1 rounded-lg bg-[#2C5282] hover:bg-[#1A365D] text-white text-xs font-medium"
                     >
                       <Check size={13} /> Guardar
                     </button>

@@ -228,7 +228,7 @@ export default function UnitsOfMeasurePage() {
           {canCreate && (
             <Button
               onClick={openCreate}
-              className="bg-[#C5A05A] hover:bg-[#b8934f] text-white shadow"
+              className="bg-[#2C5282] hover:bg-[#1A365D] text-white shadow"
             >
               <Plus className="mr-2 h-4 w-4" />
               Nueva
@@ -310,7 +310,7 @@ export default function UnitsOfMeasurePage() {
               </label>
             </div>
 
-            <Button type="submit" className="w-full bg-[#C5A05A] text-white">
+            <Button type="submit" className="w-full bg-[#2C5282] text-white">
               Guardar
             </Button>
           </form>

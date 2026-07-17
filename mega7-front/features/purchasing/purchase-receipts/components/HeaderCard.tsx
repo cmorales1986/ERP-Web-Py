@@ -30,7 +30,7 @@ export function HeaderCard({
   return (
     <Card className="border-slate-200 p-4 shadow-sm">
       <SectionHeader
-        icon={<FileText className="h-5 w-5 text-[#C5A05A]" />}
+        icon={<FileText className="h-5 w-5 text-[#2C5282]" />}
         title="Cabecera"
         subtitle="Elegí la OC y la fecha de recepción."
       />

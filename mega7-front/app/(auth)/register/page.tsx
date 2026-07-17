@@ -167,12 +167,12 @@ export default function RegisterPage() {
         {/* Botón registrar */}
         <Button
           className="w-full text-white font-medium py-2 rounded-lg"
-          style={{ backgroundColor: "#C5A05A" }}
+          style={{ backgroundColor: "#2C5282" }}
           onMouseEnter={(e) =>
-            (e.currentTarget.style.backgroundColor = "#b8934f")
+            (e.currentTarget.style.backgroundColor = "#1A365D")
           }
           onMouseLeave={(e) =>
-            (e.currentTarget.style.backgroundColor = "#C5A05A")
+            (e.currentTarget.style.backgroundColor = "#2C5282")
           }
           disabled={loading}
           onClick={handleRegister}
@@ -190,7 +190,7 @@ export default function RegisterPage() {
         {/* Volver a login */}
         <Button
           variant="outline"
-          className="w-full border-[#C5A05A] text-[#C5A05A] hover:bg-[#C5A05A]/10"
+          className="w-full border-[#2C5282] text-[#2C5282] hover:bg-[#2C5282]/10"
           onClick={() => (window.location.href = "/login")}
           disabled={loading}
         >

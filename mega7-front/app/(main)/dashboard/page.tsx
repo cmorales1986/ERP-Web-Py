@@ -60,8 +60,8 @@ type SalesVsCollectionsRow = {
 const fmtPY = new Intl.NumberFormat("es-PY");
 
 // 🎨 Mega7
-const BAR_COLOR = "#C5A05A";
-const LINE_COLOR = "#C5A05A";
+const BAR_COLOR = "#2C5282";
+const LINE_COLOR = "#2C5282";
 
 // años disponibles (como pediste)
 const YEAR_OPTIONS = [2025, 2026];

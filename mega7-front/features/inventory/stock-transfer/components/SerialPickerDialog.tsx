@@ -77,7 +77,7 @@ export function SerialPickerDialog(props: {
               <Button variant="outline" onClick={() => setSelected([])}>
                 Limpiar
               </Button>
-              <Button className="bg-[#C5A05A] text-white" onClick={() => onOpenChange(false)}>
+              <Button className="bg-[#2C5282] text-white" onClick={() => onOpenChange(false)}>
                 Aplicar
               </Button>
             </div>
