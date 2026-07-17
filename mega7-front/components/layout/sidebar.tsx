@@ -63,11 +63,11 @@ export default function Sidebar() {
             ${showOpen ? "w-20 h-20" : "w-12 h-12"}
           `}
         >
-          <img
-            src="/images/icono_ligth.png"
-            alt="Mega7 Logo"
-            className={`opacity-90 transition-all duration-300 ${showOpen ? "w-12 h-12" : "w-8 h-8"}`}
-          />
+          <span
+            className={`font-bold tracking-tight text-[#2C5282] transition-all duration-300 ${showOpen ? "text-xl" : "text-[11px]"}`}
+          >
+            ERP
+          </span>
         </div>
 
         {showOpen && <p className="text-xl font-bold text-gray-800">Mega7</p>}

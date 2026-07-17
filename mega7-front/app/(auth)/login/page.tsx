@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { api } from "@/lib/api";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
@@ -53,13 +52,14 @@ export default function LoginPage() {
     >
       <CardHeader>
         <div className="flex flex-col items-center space-y-2">
-          <Image
-            src="/images/icono_ligth.png"
-            width={55}
-            height={55}
-            alt="Mega7 Logo"
-            className="opacity-90"
-          />
+          <div
+            className="flex items-center justify-center rounded-full border-2 border-[#2C5282] bg-white w-14 h-14"
+            aria-label="Mega7 ERP"
+          >
+            <span className="text-lg font-bold tracking-tight text-[#2C5282]">
+              ERP
+            </span>
+          </div>
           <h1 className="text-2xl font-semibold text-gray-800">
             Iniciar Sesión
           </h1>
