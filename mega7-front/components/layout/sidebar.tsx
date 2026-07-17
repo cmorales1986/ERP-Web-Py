@@ -70,8 +70,6 @@ export default function Sidebar() {
           </span>
         </div>
 
-        {showOpen && <p className="text-xl font-bold text-gray-800">Mega7</p>}
-
         <button
           onClick={() => { if (open) collapseSidebar(); else setOpen(true); }}
           className="absolute right-[-14px] top-10 bg-white border rounded-full shadow p-1 hover:bg-gray-100 transition"
